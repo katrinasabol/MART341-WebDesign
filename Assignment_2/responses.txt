@@ -1,1 +1,8 @@
+What is a directory and what is its relationship to files?
+  A directory is a file system used to organize files into certain nested paths. Folders organize files, and the path you follow to get to a certain file makes it easier and quicker to find, as well as keeping all files within a project organized. There's a hierarchy to directories and each subdirectory following the root is connected with a parent/child relationship as you go down.
+  
+How are VCS useful?
+  VCS are useful because it allows you to look back at past saved work at any time. It stores different versions properly and automatically, as naming and pointing out changes manually would be very tedious. You can see your changes, and always go back to a previous version if something doesn't work in a more current one. It also makes collaborating with others convenient as you can see other's changes as well.
 
+Do you have a favorite artistic medium? Why is it your favorite?
+  I don't think I have a favorite artistic medium, but I've enjoyed playing with a lot of different ones. I've tried screenprinting, relief printmaking, oil, acrylic, digital, video, audio, which is partially because of my own interests but also through being a media arts major. I like what each one brings, but at the moment screenprinting is most enjoyable to me because I get to produce so many of the same image by hand and it feels very rewarding looking at all of the prints together.
