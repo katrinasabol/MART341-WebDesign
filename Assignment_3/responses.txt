@@ -1,0 +1,8 @@
+What is the relationship between an IP address and the DNS?
+  We access domains on web browsers, which interact through IP addresses. IP addresses are translated by DNS so browsers can load the correct information.
+
+What is a cookie?
+  A cookie is a small text file that holds pieces of data that keep track of a user, like their login information, preferences, or where they left off on a page.
+
+What are the three essential parts of a URL?
+  Protocol, domain, and path
