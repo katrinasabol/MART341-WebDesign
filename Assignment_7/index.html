@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <!-- Define character set here -->
+    <meta charset="utf-8">
+    <!-- Short page description -->
+    <meta name="desciption" content="Contact page for Katrina Sabol"
+    <!-- Author info-->
+    <meta name="author" content="Katrina Sabol"
+    <!-- Viewport element-->
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+  </head>
+
+
+    <title>Contact Me!</title>
+
+<body>
+  <h1>Contact Me!</h1>
+    <p>
+      Name:
+      <input type="text" name="name" id="contact_name">
+    </p>
+
+      <h2>Why are you contacting me? </h2>
+
+  <form class="contact-form" action="submitted.html" method="post" id="contact">
+
+      <input type="radio" name="whycontact" value="comment"/> Comment
+      <br/>
+      <input type="radio" name="whycontact" value="question"/> Question
+      <br />
+      <input type="radio" name="whycontact" value="concern"/> Concern
+
+
+    <p>
+    What is it?
+    </p>
+    <textarea name="textbox" rows="8" cols="80" placeholder="Let me know here (:"></textarea>
+
+    <input type="submit" name="submit" value="Submit"/>
+
+  </form>
+</body>
+
+</html>
