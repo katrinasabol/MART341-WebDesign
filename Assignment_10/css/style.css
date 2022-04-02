@@ -1,0 +1,84 @@
+body {
+  background-color: #D1111B;
+  font-family: Georgia;
+  text-align: center;
+}
+
+div {
+  border: 4px solid #1e171c;
+  display: inline-block;
+}
+
+img {
+  border-radius: 3%;
+  border: 5px solid #D1111B;
+}
+
+.inspo{
+  background-color: #DD929A;
+  width: 700px;
+}
+
+#divider{
+  border: none;
+  border-bottom: 3px dotted black;
+  width: 500px;
+}
+
+#title{
+  font-size: 25px;
+  background-color: #0053B0;
+  color: #E7d8d2;
+  margin: auto;
+  padding: 15px;
+  font-kerning: auto;
+}
+
+.colorCodes{
+  border-radius: 5%;
+  border: 3px black solid;
+  background-color: white;
+  display: inline-block;
+  padding: 7px;
+  font-size: 15px;
+}
+
+.dot{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px black solid;
+}
+
+.dot.one{
+  background-color: #81C9D1;
+}
+
+.dot.two{
+  background-color: #D3D151;
+}
+
+.dot.three{
+  background-color: #DD929A;
+}
+
+.dot.four{
+  background-color: #E7D8D2;
+}
+
+.dot.five{
+  background-color: #1E171C;
+}
+
+.dot.six{
+  background-color: #461926;
+}
+
+.dot.seven{
+  background-color: #D1111B;
+}
+
+.dot.eight{
+  background-color: #0053B0;
+}
