@@ -1,0 +1,66 @@
+nav{
+  text-align: right;
+  padding:3%;
+  background-color:#4c1a57;
+  height: 80px;
+}
+
+body{
+  background-color: #EDF1F3;
+}
+.menuBar {
+  color: #ff3cc7;
+  font-size: 24px;
+  font-family:SignikaNegative;
+  font-weight: normal;
+}
+
+#homeButton{
+  color: #FF85DC;
+  font-size: 60px;
+  font-family: SignikaNegative;
+  font-weight: 700;
+}
+
+#homeButton:hover{
+  letter-spacing:0.5em;
+  color:#82FF9E;
+}
+
+.menuBar:hover{
+font-weight:bold;
+font-size:26px;
+
+}
+
+#selfPic{
+  width:400px;
+  float: left;
+  display: inline-block;
+  padding-left: 120px;
+}
+
+
+.paragraph{
+  max-width: 700px;
+  margin: 40px;
+  float: right;
+  padding-right: 200px;
+  font-family: SignikaNegative;
+  font-weight: 300;
+  font-size: 20px;
+  text-align:center;
+
+}
+
+a:visited{
+  font-weight: 600;
+  color: #ff3cc7;
+}
+
+a:link{
+  font-family: SignikaNegative;
+  font-weight:600;
+  text-decoration: none;
+
+}

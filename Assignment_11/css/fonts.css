@@ -1,0 +1,17 @@
+@font-face {
+    font-family:"SignikaNegative";
+    src: url('../fonts/SignikaNegative-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+  font-family:"SignikaNegative";
+  src: url('../fonts/SignikaNegative-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family:"SignikaNegative";
+  src: url('../fonts/SignikaNegative-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
