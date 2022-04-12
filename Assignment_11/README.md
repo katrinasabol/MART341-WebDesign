@@ -5,4 +5,6 @@ It's important to have fallback fonts or a font stack because if for some reason
 
 System fonts are those that are already installed on your system and are available in lots of programs, but not always for the web. A web font is a custom font hosted on a server. They require certain steps to get called correctly, as they do not have to be on a user's device to appear. A web-safe font is one that can adapt to any browser and any device, ensuring that those fonts will always be displayed as the developer intended.
 
+Note: the links in my nav bar do not work except for the one where my name is (back to index) as I don't have the pages created yet, but with the next weeks I want to work on creating each of them to make a portfolio website.
+
 ![My Screenshot](./images/assignment11_screenshot.png)
