@@ -1,0 +1,140 @@
+
+
+body{
+  background-color: #830A48;
+}
+
+.selfPic{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+
+
+/* Menu */
+header{
+  background-color:#143642;
+  width:100%;
+  float:center;
+  height: 4em;
+  top: 0px;
+  font-family: SignikaNegative;
+  text-align: right;
+  position: fixed;
+}
+
+/* Set the layout of the menu */
+.site-name{
+  color: #0F8B8D;
+  font-size: 40px;
+  font-family: SignikaNegative;
+  font-weight: 700;
+  float: left;
+  margin: 0.25em;
+}
+
+.menu-item{
+  display: inline-block;
+  margin: 1em;
+  background-color:#D33F49;
+  padding: 0.25em 1em 0.25em 1em;
+  border-radius: .25em;
+  min-width:5em;
+  text-align: center;
+
+}
+
+.menu-item:hover{
+  background-color:#EC9A29;
+  color:#FFFFFF;
+
+}
+
+/* styling links */
+.site-name a{
+  color:#7EF188;
+  text-decoration: none;
+}
+
+.site-name:hover a{
+  letter-spacing:0.25em;
+  color:#EC9A29;
+}
+
+.menu-item a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.paragraph a{
+  font-family: SignikaNegative;
+  font-weight:600;
+  text-decoration: none;
+  color:#FF85DC;
+}
+
+
+/* dropdown */
+.dropdown{
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  margin: .25em 0 0 -1em;
+  color:#000000;
+  background-color: #FFFFFF;
+  z-index: 1;
+  border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown-content a{
+  color:#000000;
+}
+
+#contactButton{
+  border-radius: 0em 0em 1em 1em;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.dropdown:hover{
+  border-radius: .25em .25em 0em 0em;
+}
+
+    /* styling drop down item display*/
+      .dropdown-item{
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding:1em 1em 0.5em 1em;
+        min-width: 5em;
+      }
+
+      .dropdown-item:hover, .dropdown-item:hover a{
+        color:white;
+        background-color:#0F8B8D;
+      }
+
+
+/* body content */
+
+.paragraph{
+  max-width: 700px;
+  margin: auto;
+  font-family: SignikaNegative;
+  font-weight: 300;
+  font-size: 20px;
+  text-align:center;
+  color:#F4CDD0;
+}
+
+#firstBar{
+  margin-top: 5em;
+  padding: 2em;
+}
