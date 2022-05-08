@@ -1,7 +1,16 @@
 /* general */
 body{
-  background-image: url("../images/index/Sabol_1.png");
-  background-size: 33.33%;
-  background-repeat: repeat;
+
+}
+div.content{
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  display: flex;
+}
+
+img.landscape{
+  width: 55%;
+  margin: 30px;
 
 }

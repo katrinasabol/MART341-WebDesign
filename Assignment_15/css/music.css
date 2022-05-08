@@ -5,17 +5,9 @@ body{
   background-position: center;
 }
 
-div.embed{
-    background-color: rgba(0,0,0,0.6);
-    width: 50%;
-    margin: auto;
-    padding: 30px;
-    border: 1px solid black;
-  }
-
   div.textLink{
     background-color: rgba(0,0,0,0.6);
-    width: 50%;
+    max-width:80%;
     margin: auto;
     text-align: center;
     color: white;
@@ -34,4 +26,13 @@ div.embed{
 }
 .textLink a:visited{
  color:white;
+}
+
+
+div.embed{
+  font-size: 1em;
+  justify-content: center;
+  align-content: center;
+  max-width:80%;
+  margin: auto;
 }

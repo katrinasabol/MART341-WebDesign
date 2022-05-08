@@ -1,0 +1,39 @@
+body{
+  background-image: url("../images/about/orangeOil.jpg");
+  background-repeat: repeat;
+  background-size: 33.33%;
+  background-position: auto;
+}
+
+section{
+  width:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#fddcc456;
+}
+
+.container{
+  width:90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item1{
+  width: 30%;
+  height:600px;
+  border-radius:8px;
+}
+
+.item2{
+  width:30%;
+  min-height:400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+
+}
