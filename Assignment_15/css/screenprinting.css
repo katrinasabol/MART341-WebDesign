@@ -5,10 +5,15 @@ body{
   background-position: center;
 }
 
-li a:hover:not(.active) {
-  color: purple;
+li a{
+  color: #e696ec;
 }
 
+li a:hover:not(.active) {
+  color:#9e78db;
+}
+
+/* IMAGE HOVER */
 img.landscape{
   width: 100%;
   filter:grayscale(100%);
@@ -32,7 +37,7 @@ img.portrait:hover{
   transition: .5s ease;
 }
 
-
+/*GRID*/
 .grid-container > div {
   background-color: rgba(255,255,255,0.7);
   padding: 20px;
@@ -40,6 +45,12 @@ img.portrait:hover{
   align-items: center;
   max-width: 100%;
   margin:5%;
+}
+
+div.content{
+  font-size: 1em;
+  justify-content: center;
+  align-content: center;
 }
 
 @media only screen and (min-width: 768px){
@@ -67,10 +78,4 @@ img.portrait:hover{
     align-items:center;
     justify-content: center;
   }
-}
-
-div.content{
-  font-size: 1em;
-  justify-content: center;
-  align-content: center;
 }

@@ -1,16 +1,16 @@
 /* general */
 body{
-
-}
-div.content{
-  justify-content: center;
-  align-content: center;
-  margin: auto;
-  display: flex;
+    background-repeat: repeat;
+  background-image: url("../images/index/IMG_4799.jpg");
+  background-size: 35%;
+  background-position: center;
 }
 
-img.landscape{
-  width: 55%;
-  margin: 1%;
+li a{
+  color:#B0DDFD;
+}
 
+
+li a:hover:not(.active) {
+  color: #F5F08E;
 }
