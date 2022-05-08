@@ -1,0 +1,82 @@
+body{
+  max-width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+*{
+  font-family: 'Signika Negative', sans-serif;
+}
+
+/* menu bar */
+.home-button{
+  font-size: 200%;
+  position: relative;
+  margin-top: .2em;
+  font-family: 'RadioCanada', 'Verdana'
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4) ;
+  text-align: center;
+  float: center;
+}
+
+ul li{
+  float: center;
+  display: inline-block;
+  padding-left: 5em;
+  padding-right: 5em;
+
+}
+
+li a  {
+  display: block;
+  color:#FFFFFF;
+  text-align: baseline;
+  padding:10px 10px 20px 10px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: pink;
+}
+
+@media screen and (max-width: 600px) {
+  ul li {float: none;}
+}
+
+
+.emailMe {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  margin:10px;
+  width: 300px;
+  border: 3px dotted black;
+  background-color: white;
+}
+
+.emailMe a:link {
+  text-decoration: none;
+  color:white;
+}
+
+.emailMe a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+.emailMe a:hover {
+  text-decoration: overline;
+  color: black;
+  }
+
+a:hover{
+  text-decoration: overline;
+}

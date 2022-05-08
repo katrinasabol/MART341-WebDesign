@@ -1,0 +1,37 @@
+body{
+    background-repeat: repeat;
+  background-image: url("../images/music/tealOil.jpg");
+  background-size: 35%;
+  background-position: center;
+}
+
+div.embed{
+    background-color: rgba(0,0,0,0.6);
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid black;
+  }
+
+  div.textLink{
+    background-color: rgba(0,0,0,0.6);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 1.7em;
+  }
+
+.textLink a{
+  color:white;
+  text-decoration: none;
+}
+
+.textLink a:hover{
+  text-decoration: overline;
+}
+.textLink a:visited{
+ color:white;
+}
