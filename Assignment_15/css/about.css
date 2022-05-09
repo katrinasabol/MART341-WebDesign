@@ -99,7 +99,7 @@ div.content{
 @media only screen and (min-width: 768px){
   .grid-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     align-items:center;
     justify-content: center;
   }
@@ -108,7 +108,7 @@ div.content{
 @media only screen and (max-width: 960px){
   .grid-container{
     display: grid;
-    grid-template-columns:auto ;
+    grid-template-columns: auto;
     align-items:center;
     justify-content: center;
   }

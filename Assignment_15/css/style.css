@@ -60,7 +60,7 @@ li a:hover:not(.active) {
   margin:10px;
   width: 300px;
   border: 3px dotted black;
-  background-color: white;
+  background-color: rgba(255,255,255,0.75);
 }
 
 .emailMe a:link {
