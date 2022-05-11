@@ -9,6 +9,13 @@ li a{
   color: #e696ec;
 }
 
+h3{
+  margin-top: 3%;
+  margin-bottom: 0%;
+  margin-left: 4%;
+
+}
+
 li a:hover:not(.active) {
   color:#9e78db;
 }
@@ -44,7 +51,7 @@ img.portrait:hover{
   font-size: 30px;
   align-items: center;
   max-width: 100%;
-  margin:5%;
+  margin: 5%;
 }
 
 div.content{
