@@ -47,9 +47,73 @@ li a:hover:not(.active) {
   color: pink;
 }
 
-@media screen and (max-width: 600px) {
-  ul li {float: none;}
+/*large screen */
+@media only screen and (min-width: 768px){
+  ul li {
+    float: none;
+  }
+
+footer{
+  background-color: rgba(255,255,255,0.7);
+  max-width: 100%;
+  text-align: center;
+  padding-left: 1em;
+  padding-top:2px;
+  padding-bottom:2px;
+  margin-top:1.5em;
+  margin-bottom: .5em;
+  align-self: center;
 }
+}
+
+/* mid screen*/
+
+@media only screen and (max-width: 960px){
+  ul li {
+    float: none;
+  }
+
+footer{
+  background-color: rgba(255,255,255,0.7);
+  max-width: 100%;
+  text-align: left;
+  padding-left: 1em;
+  padding-top:2px;
+  padding-bottom:2px;
+  margin-top:1.5em;
+  margin-bottom: .5em;
+  align-self: center;
+}
+}
+
+
+/*mobile screen*/
+
+@media only screen and (max-width: 600px){
+  ul li {
+    float: none;
+  }
+
+footer{
+  background-color: rgba(255,255,255,0.7);
+  max-width: 100%;
+  text-align: left;
+  padding-left: 1em;
+  padding-top:2px;
+  padding-bottom:2px;
+  margin-top:1.5em;
+  margin-bottom: .5em;
+  align-self: center;
+}
+}
+
+
+footer a{
+  text-decoration: underline;
+  color:black;
+}
+
+
 
 /* email button */
 .emailMe {

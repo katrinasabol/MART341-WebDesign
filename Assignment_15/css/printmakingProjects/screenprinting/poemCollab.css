@@ -1,7 +1,7 @@
 body{
-    background-repeat: repeat;
-    background-color: grey;
-  background-size: 35%;
+  background-image: url("canvasGrey.jpg");
+  background-repeat: repeat;
+  background-size:40%;
   background-position: center;
 }
 
@@ -19,17 +19,15 @@ li a:hover:not(.active) {
   color:#ced300;
 }
 
-/* IMAGE HOVER */
+/* IMAGES*/
 img.landscape{
   width: 100%;
 }
-
 
 img.portrait{
   width:100%;
   height:100%;
 }
-
 
 
 /*GRID*/
@@ -38,8 +36,10 @@ img.portrait{
   padding: 20px;
   font-size: 30px;
   place-items:center;
-  max-width: 30%;
-  margin: 5%;
+  align-content: center;
+  max-width: 20%;
+  margin: auto;
+  margin-top: 2%;
 }
 
 .grid-container2 > div {
@@ -55,60 +55,66 @@ div.content{
   font-size: 1em;
   justify-content: center;
   align-content: center;
-  
+}
+
+.content > p{
+
 }
 
 /*artist statement grid*/
 @media only screen and (min-width: 768px){
   .grid-container1{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     align-items:center;
     justify-content: center;
   }
-}
-
-@media only screen and (max-width: 1440px){
-  .grid-container1{
-    display: grid;
-    grid-template-columns:auto auto;
-    align-items:center;
-    justify-content: center;
-  }
-}
-
-@media only screen and (max-width: 600px){
-  .grid-container1{
-    display: grid;
-    grid-template-columns: auto;
-    align-items:center;
-    justify-content: center;
-  }
-}
-/* photo grid */
-@media only screen and (min-width: 768px){
   .grid-container2{
     display: grid;
     grid-template-columns: auto auto auto;
     align-items:center;
     justify-content: center;
   }
+  .grid-container1 > div{
+    max-width: 30%;
+  }
 }
 
 @media only screen and (max-width: 1440px){
+  .grid-container1{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items:center;
+    justify-content: center;
+    max-width: 100%;
+  }
   .grid-container2{
     display: grid;
     grid-template-columns:auto auto;
     align-items:center;
     justify-content: center;
+
+  }
+  .grid-container1 > div{
+    max-width: 70%;
   }
 }
 
 @media only screen and (max-width: 600px){
+  .grid-container1{
+    display: grid;
+    grid-template-columns: auto;
+    align-items:center;
+    justify-content: center;
+    max-width: 100%;
+  }
   .grid-container2{
     display: grid;
     grid-template-columns: auto;
     align-items:center;
     justify-content: center;
+  }
+  .grid-container1 > div{
+    max-width: 100%;
   }
 }

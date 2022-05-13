@@ -1,5 +1,5 @@
 body{
-    background-repeat: repeat;
+    background-image: url("canvasGrey.jpg");
     background-color: grey;
   background-size: 35%;
   background-position: center;
@@ -16,7 +16,7 @@ h3{
 }
 
 li a:hover:not(.active) {
-  color:#677ab3;
+  color:#957d9b;
 }
 
 /* IMAGE HOVER */
@@ -42,6 +42,15 @@ img.portrait{
   margin: 5%;
 }
 
+.grid-container2_5 > div {
+  background-color: rgba(255,255,255,0.7);
+  padding: 20px;
+  font-size: 30px;
+  align-items: center;
+  max-width: 100%;
+  margin: 5%;
+}
+
 .grid-container2 > div {
   background-color: rgba(255,255,255,0.7);
   padding: 20px;
@@ -57,7 +66,8 @@ div.content{
   align-content: center;
 }
 
-/* big MM */
+/*large desktop*/
+
 @media only screen and (min-width: 768px){
   .grid-container1{
     display: grid;
@@ -65,29 +75,12 @@ div.content{
     align-items:center;
     justify-content: center;
   }
-}
-
-@media only screen and (max-width: 1440px){
-  .grid-container1{
+  .grid-container2_5{
     display: grid;
-    grid-template-columns:auto auto;
+    grid-template-columns: auto auto;
     align-items:center;
     justify-content: center;
   }
-}
-
-@media only screen and (max-width: 600px){
-  .grid-container1{
-    display: grid;
-    grid-template-columns: auto;
-    align-items:center;
-    justify-content: center;
-  }
-}
-
-/* small MM */
-
-@media only screen and (min-width: 768px){
   .grid-container2{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -96,16 +89,46 @@ div.content{
   }
 }
 
+
+
 @media only screen and (max-width: 1440px){
-  .grid-container2{
+  .grid-container1{
     display: grid;
-    grid-template-columns:auto auto auto;
+    grid-template-columns:auto auto;
     align-items:center;
     justify-content: center;
   }
+  .grid-container2_5{
+    display: grid;
+    grid-template-columns:auto auto;
+    align-items:center;
+    justify-content: center;
+  }
+  .grid-container2{
+    display: grid;
+    grid-template-columns:auto auto;
+    align-items:center;
+    justify-content: center;
+  }
+  #lastMM2021{
+    grid-column-start: 3;
+  }
 }
 
+
 @media only screen and (max-width: 600px){
+  .grid-container1{
+    display: grid;
+    grid-template-columns: auto;
+    align-items:center;
+    justify-content: center;
+  }
+  .grid-container2_5{
+    display: grid;
+    grid-template-columns: auto;
+    align-items:center;
+    justify-content: center;
+  }
   .grid-container2{
     display: grid;
     grid-template-columns: auto;

@@ -1,5 +1,5 @@
 body{
-    background-repeat: repeat;
+    background-image: url("canvasGrey.jpg");
     background-color: grey;
   background-size: 35%;
   background-position: center;
@@ -16,7 +16,7 @@ h3{
 }
 
 li a:hover:not(.active) {
-  color:#d75429;
+  color:#cb2130;
 }
 
 /* IMAGE HOVER */
@@ -38,8 +38,8 @@ img.portrait{
   padding: 40px;
   font-size: 30px;
   align-items: center;
-  max-width: 100%;
-  margin: 5%;
+  max-width: 80%;
+  margin: 7%;
 }
 
 div.content{

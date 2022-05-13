@@ -3,6 +3,7 @@ body{
   background-image: url("../images/graphicDesign/vibrantOil.jpg");
   background-size: 40%;
   background-position: center;
+  background-blend-mode: lighten;
 }
 li a{
   color: #f6e1d6;
