@@ -1,7 +1,7 @@
 body{
     background-repeat: repeat;
   background-image: url("../images/music/tealOil.jpg");
-  background-size: 35%;
+  background-size: 40%;
   background-position: center;
 }
 
@@ -41,6 +41,6 @@ div.embed{
   font-size: 1em;
   justify-content: center;
   align-content: center;
-  max-width:80%;
+  max-width:70%;
   margin: auto;
 }

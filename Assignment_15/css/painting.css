@@ -1,0 +1,18 @@
+
+
+/* general */
+body{
+    background-repeat: repeat;
+  background-image: url("../images/painting/collabDance.jpg");
+  background-size: 40%;
+  background-position: center;
+}
+
+li a{
+  color:#B0DDFD;
+}
+
+
+li a:hover:not(.active) {
+  color: #F5F08E;
+}

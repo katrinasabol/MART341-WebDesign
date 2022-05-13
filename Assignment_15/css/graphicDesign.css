@@ -1,7 +1,7 @@
 body{
     background-repeat: repeat;
   background-image: url("../images/graphicDesign/vibrantOil.jpg");
-  background-size: 35%;
+  background-size: 40%;
   background-position: center;
 }
 li a{
@@ -10,6 +10,12 @@ li a{
 
 li a:hover:not(.active) {
   color:#EF809F;
+}
+
+h3{
+  margin-top: 3%;
+  margin-bottom: 0%;
+  margin-left: 4%;
 }
 
 /* IMAGE HOVER */

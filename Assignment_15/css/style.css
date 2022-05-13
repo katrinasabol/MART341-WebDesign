@@ -51,7 +51,7 @@ li a:hover:not(.active) {
   ul li {float: none;}
 }
 
-
+/* email button */
 .emailMe {
   position: fixed;
   text-align: center;
